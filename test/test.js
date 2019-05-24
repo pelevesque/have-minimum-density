@@ -87,7 +87,7 @@ describe('#haveMinimumDensity()', () => {
 
   it('should work with substrings longer than 1 character in length', () => {
     const str = 'aabaacaabaad'
-    const checks = ['aab', 0.5]
+    const checks = [['aab', 0.5]]
     const result = haveMinimumDensity(str, checks)
     const expected = true
     expect(result).to.equal(expected)
@@ -95,7 +95,7 @@ describe('#haveMinimumDensity()', () => {
 
   it('should work with substrings of various lengths', () => {
     const str = 'aab111111aab'
-    const checks = ['aab', 0.5, 1, 0.5]
+    const checks = [['aab', 0.5], [1, 0.5]]
     const result = haveMinimumDensity(str, checks)
     const expected = true
     expect(result).to.equal(expected)
