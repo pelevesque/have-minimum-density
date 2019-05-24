@@ -1,6 +1,6 @@
 {
   "name": "@pelevesque/have-minimum-density",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Checks if substrings have a minimum density in a string.",
   "main": "index.js",
   "engines": {
