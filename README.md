@@ -59,3 +59,10 @@ const checks = [['a', 0.1], ['b', 0.25], ['c', 0.05], ['d', 0.02]]
 const result = haveMinimumDensity(str, checks)
 // result === true
 ```
+
+```js
+const str = 'aabaacaabaad'
+const checks = [['aab', 0.5]]
+const result = haveMinimumDensity(str, checks)
+// result === true
+```
