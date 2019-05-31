@@ -10,7 +10,7 @@ Checks if substrings have a minimum density in a string.
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/have-minimum-density](https://www.npmjs.com/package/@pelevesque/have-minimum-density)
+https://www.npmjs.com/package/@pelevesque/have-minimum-density
 
 ## Installation
 
