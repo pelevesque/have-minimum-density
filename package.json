@@ -4,7 +4,7 @@
   "description": "Checks if substrings have a minimum density in a string.",
   "main": "index.js",
   "engines": {
-    "node": ">=5.0.0"
+    "node": ">=6.4.0"
   },
   "scripts": {
     "test": "standard && mocha --reporter spec",
